@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>T&P DETAILS</title>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+
+    <link rel="stylesheet" href="dstyles.css">
+    </head>
+    <body>
+
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+             <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <h1>E-PASS</h1>
+              </div>
+              <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav" class="btn btn-one">
+
+               <li ><a href="index.html">HOME</a></li>
+                   <li class="active"><a href="details.html">DETAILS</a></li>
+                   <li><a href="contact.html">CONTACT US</a></li>
+                  </ul>
+
+             </div>
+            </div>
+          </nav>
+          <div class="side">
+
+            <img src="./images/giphy.gif">
+           </div>
+
+               <div class="container">
+                    <form id="form1" action="process.php"  method="POST" enctype="multipart/form-data">
+
+                        <h2><b>TRAVEL DETAILS</b></h2>
+                        <select name="fstate" id="state" required>
+                          <option>CHOOSE FROM STATE</option>
+                           <option value="ANDHRA PRADESH">ANDHRA PRADESH</option>
+                          <option value="ARUNACHAL PRADESH">ARUNACHAL PRADESH</option>
+                           <option value="ASSAM">ASSAM</option>
+                           <option value="BIHAR">BIHAR</option>
+                           <option value="CHHATTISGARH">CHHATTISGARH</option>
+                           <option value="GOA">GOA</option>
+                           <option value="GUJARAT">GUJARAT</option>
+                           <option value="HARYANA">HARYANA</option>
+                           <option value="HIMACHAL PRADESH">HIMACHAL PRADESH</option>
+                           <option value="JAMMU & KASHMIR">JAMMU & KASHMIR</option>
+                           <option value="JHARKHAND">JHARKHAND</option>
+                           <option value="KARNATAKA">KARNATAKA</option>
+                           <option value="KERALA">KERALA</option>
+                           <option value="MADHYA PRADESH">MADHYA PRADESH</option>
+                           <option value="MAHARASHTRA">MAHARASHTRA</option>
+                           <option value="MANIPUR">MANIPUR</option>
+                           <option value="MEGHALAYA">MEGHALAYA</option>
+                           <option value="MIZORAM">MIZORAM</option>
+                           <option value="NAGALAND">NAGALAND</option>
+                           <option value="ODISHA">ODISHA</option>
+                           <option value="PUNJAB">PUNJAB</option>
+                           <option value="RAJASTHAN">RAJASTHAN</option>
+                           <option value="SIKKIM">SKKIM</option>
+                           <option value="TAMIL NADU">TAMIL NADU</option>
+                           <option value="TELANGANA">TELANGANA</option>
+                           <option value="TRIPURA">TRIPURA</option>
+                           <option value="UTTARAKHAND">UTTARAKHAND</option>
+                           <option value="UTTAR PRADESH">UTTAR PRADESH</option>
+                           <option value="WEST BENGAL">WEST BENGAL</option>
+                           <option value="CHANDIGARH">CHANDIGARH</option>
+                          <option value="DELHI">DELHI</option>
+
+                         </select>
+                         <select name="state" id="state" required>
+                          <option>CHOOSE TO STATE</option>
+                           <option value="ANDHRA PRADESH">ANDHRA PRADESH</option>
+                          <option value="ARUNACHAL PRADESH">ARUNACHAL PRADESH</option>
+                           <option value="ASSAM">ASSAM</option>
+                           <option value="BIHAR">BIHAR</option>
+                           <option value="CHHATTISGARH">CHHATTISGARH</option>
+                           <option value="GOA">GOA</option>
+                           <option value="GUJARAT">GUJARAT</option>
+                           <option value="HARYANA">HARYANA</option>
+                           <option value="HIMACHAL PRADESH">HIMACHAL PRADESH</option>
+                           <option value="JAMMU & KASHMIR">JAMMU & KASHMIR</option>
+                           <option value="JHARKHAND">JHARKHAND</option>
+                           <option value="KARNATAKA">KARNATAKA</option>
+                           <option value="KERALA">KERALA</option>
+                           <option value="MADHYA PRADESH">MADHYA PRADESH</option>
+                           <option value="MAHARASHTRA">MAHARASHTRA</option>
+                           <option value="MANIPUR">MANIPUR</option>
+                           <option value="MEGHALAYA">MEGHALAYA</option>
+                           <option value="MIZORAM">MIZORAM</option>
+                           <option value="NAGALAND">NAGALAND</option>
+                           <option value="ODISHA">ODISHA</option>
+                           <option value="PUNJAB">PUNJAB</option>
+                           <option value="RAJASTHAN">RAJASTHAN</option>
+                           <option value="SIKKIM">SKKIM</option>
+                           <option value="TAMIL NADU">TAMIL NADU</option>
+                           <option value="TELANGANA">TELANGANA</option>
+                           <option value="TRIPURA">TRIPURA</option>
+                           <option value="UTTARAKHAND">UTTARAKHAND</option>
+                           <option value="UTTAR PRADESH">UTTAR PRADESH</option>
+                           <option value="WEST BENGAL">WEST BENGAL</option>
+                           <option value="CHANDIGARH">CHANDIGARH</option>
+                          <option value="DELHI">DELHI</option>
+
+                         </select>
+
+
+                        <input type="text" placeholder="Destination City" name="city" required>
+                        <input type="text" placeholder=" Destination Address" name="address" required>
+                        <h3>FROM Date</h3>
+                        <input type="date" placeholder="From Date" name="date" required>
+                        <h3>TO Date</h3>
+                        <input type="date" placeholder="To Date" name="tdate" required>
+
+                        <select name="reason" id="state" required>
+                          <option>CHOOSE REASON FOR TRAVEL</option>
+                          <option value="MEDICAL SERVICES" id="1">MEDICAL EMERGENCY SERVICES</option>
+                          <option value="ESSENTAIL SERVICES" id="2">ESSENTAIL SERVICES</option>
+                          <option value="GOVERNMENT WORKERS" id="3">GOVERNMENT  OFFICIALS/WORKERS</option>
+                          <option value="BUSINESS" id="4">BUSINESS</option>
+                          <option value="VISITING HOMETOWN" id="5">VISIT HOMETOWN</option>
+                          </select>
+
+                          <h3 >Medical Certificate (Only for Business):</h3>
+                          <input type="file" name="myfile" accept="image/*"><br>
+                        <input type="text" placeholder="Pincode" name="pincode" required>
+                    <input type="text" placeholder=" First Name" name="fname" required>
+                    <input type="text" placeholder=" Last Name" name="lname" required>
+                    <input type="text" placeholder=" User Id" name="userid" required>
+                        <input type="number" placeholder=" Mobile No." name="mobile" required>
+                        <input type="number" placeholder="Aadhar No." name="aadhar" required>
+
+
+                      <button type="button" onclick="myFunction()">RESET</button>
+                      <button name="submit">SUBMIT</button>
+
+
+
+                </form>
+              </div>
+
+
+
+
+
+                            <script>
+                                function myFunction() {
+                                  document.getElementById("form1").reset();
+                                }
+                                </script>
+
+                        </body>
+                        </html>

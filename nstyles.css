@@ -1,0 +1,192 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+background-image:url(./images/img8.jpg);
+background-position: center;
+background-size: cover;
+height:100vh;
+}
+.navbar-inverse .navbar-collapse{
+background-color: lightblue;
+
+}
+.navbar-nav{
+  float:right;
+  list-style:none;
+  margin-top:30px;
+  
+}
+.navbar-nav li{
+  display:inline-block;
+  
+}
+.navbar-nav li a{
+  color:maroon;
+  text-decoration:none;
+  padding:5px 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size:20px;
+  border-radius: 1rem;
+
+}
+.navbar-nav li.active a
+{
+  border:1px solid black;
+  background-color: white;
+}
+.navbar-nav li a:hover
+{
+   border:1px solid black;
+   background-color: white;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbar-header h1{
+  float:left;
+  margin-top:30px;
+  margin-left:50px;
+  font-family:cursive;
+  color: black;
+}
+.container{
+  width:450px;
+  background-color:white;
+  margin-top:75px;
+  border-radius:2rem;
+}
+.container h2
+{
+  margin-left:150px;
+margin: 40px;
+font-family: 'Times New Roman', Times, serif;
+color:magenta;
+
+}
+form label{
+  color:black;
+  font-size:20px;
+  
+  font-family: 'Times New Roman', Times, serif;
+}
+.row  button{
+
+width: 150px;
+
+
+}
+ .row a{
+   margin-top:5px;
+  width: 150px;
+  
+  margin-bottom:10px;
+
+}
+form input{
+  
+  height:40px;
+
+border-radius: 10px;
+color:blue;
+
+font-family: 'Times New Roman', Times, serif;
+font-size:20px;
+}
+
+@media only screen and (min-width: 350px){
+  .navbar-nav li a{
+    font-size:18px;
+  }
+  .navbar-inverse .navbar-header{
+    background-color: lightblue;
+  }
+  .navbar-toggle{
+    margin-top:25px;
+    background-color:black;
+  }
+  .navbar-header h1{
+    margin-top:20px;
+    margin-bottom:15px;
+  }
+  .container h2{
+    
+    margin-top:50px;
+  }
+ .container{
+   width:300px;
+   height:450px;
+  
+ }
+ 
+ form label{
+  margin-left:100px;
+ }
+ form input{
+   margin-left:50px;
+  border-bottom:2px solid black;
+ }
+ form  button{
+   margin-left:75px;
+ }
+ form   a{
+  margin-left:75px;
+}
+ 
+ 
+ 
+}
+
+@media only screen and (min-width: 700px){
+  
+  .container {
+    width:450px;
+    height:500px;
+   
+  }
+  form label{
+    
+    margin-left:180px;
+   }
+   form input{
+     margin-left:120px;
+    border-bottom:2px solid black;
+   }
+   form  button{
+    margin-left:150px;
+   }
+   form   a{
+     margin-top:20px;
+    margin-left:150px;
+  }
+  
+
+}
+@media only screen and (min-width: 1024px){
+  .container {
+    width:450px;
+    
+   
+  }
+  form label{
+    
+    margin-left:180px;
+   }
+   form input{
+     width:300px;
+     margin-left:75px;
+    border-bottom:2px solid black;
+   }
+   form  button{
+    margin-left:150px;
+   }
+   form   a{
+     margin-top:20px;
+    margin-left:150px;
+  }
+  
+
+}

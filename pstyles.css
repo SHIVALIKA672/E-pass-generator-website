@@ -1,0 +1,97 @@
+
+ *{
+  margin:0;
+  padding:0;
+}
+
+body{
+background-image:url(./images/img3.jpg);
+background-position: center;
+background-size: cover;
+height:100vh;
+}
+.navbar-inverse .navbar-collapse{
+background-color: lightblue;
+}
+.navbar-nav{
+  float:right;
+  list-style:none;
+  margin-top:30px;
+  
+}
+.navbar-nav li{
+  display:inline-block;
+  
+}
+.navbar-nav li a{
+  color:maroon;
+  text-decoration:none;
+  padding:5px 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size:20px;
+  border-radius: 1rem;
+
+}
+.navbar-nav li.active a
+{
+  border:1px solid black;
+  background-color: white;
+}
+.navbar-nav li a:hover
+{
+   border:1px solid black;
+   background-color: white;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbar-header h1{
+  float:left;
+  margin-top:30px;
+  margin-left:50px;
+  font-family:cursive;
+  color: black;
+}
+
+
+/*media queries*/
+
+  @media only screen and (max-width: 420px) {
+    .navbar-inverse .navbar-header{
+      background-color: lightblue;
+    }
+   h2{
+      
+      margin-top: 150px;
+    }
+    
+    .navbar-toggle{
+      margin-top:25px;
+      background-color:black;
+    }
+    .navbar-header h1{
+      margin-top:20px;
+      margin-bottom:15px;
+    }
+    
+  .button{
+    margin-left:100px;
+  }
+  .btn{
+    background-color: lightgreen;
+  }
+  
+  }
+
+
+
+@media only screen and (max-width: 768px) {
+  .navbar-nav li a{
+    font-size:18px;
+  }
+}
+
+
+
+ 

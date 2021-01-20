@@ -1,0 +1,189 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./images/img2.jpg);
+background-position: center;
+background-size: cover;
+height:100vh;
+}
+.navbar-inverse .navbar-collapse{
+background-color: lightblue;
+}
+.navbar-nav{
+  float:right;
+  list-style:none;
+  margin-top:30px;
+  
+}
+.navbar-nav li{
+  display:inline-block;
+  
+}
+.navbar-nav li a{
+  color:maroon;
+  text-decoration:none;
+  padding:5px 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size:20px;
+  border-radius: 1rem;
+
+}
+.navbar-nav li.active a
+{
+  border:1px solid black;
+  background-color: white;
+}
+.navbar-nav li a:hover
+{
+   border:1px solid black;
+   background-color: white;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbar-header h1{
+  float:left;
+  margin-top:30px;
+  margin-left:50px;
+  font-family:cursive;
+  color: black;
+}
+.container h2{
+  font-size:30px;
+  font-family: 'Times New Roman', Times, serif;
+  color:yellow;
+
+}
+ .container h3{
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   color:peachpuff;
+   font-size:20px;
+   
+ }
+  .container form{
+    width:350px;
+    position:absolute;
+    top:100px;
+    left:40px;
+  }
+  #state{
+    width:100%;
+    padding:10px 5px;
+    margin:5px 0;
+    border:0; 
+    border-bottom:2px solid black;
+    outline:none;
+    background:lightgreen;
+  }
+  #state option{
+    background-color: skyblue;
+  }
+  #state h2{
+    color:blue;
+  }
+  form input{
+    width:100%;
+    padding:10px 5px;
+    margin:5px 0;
+    border:0; 
+    border-bottom:2px solid black;
+    outline:none;
+    background:lightgreen;
+  
+  }
+  ::placeholder{
+    font-size:20px;
+   color:darkblue;
+   font-family: 'Times New Roman', Times, serif; 
+  }
+  
+  
+  
+  form button{
+    text-align:center;
+    width:110px;
+    height:35px;
+    margin-top:  15px;
+    background: red;
+  margin-left:200px;
+   border:1px solid black;
+    outline: none;
+    color:#fff;
+    cursor: pointer;
+    margin-bottom:5px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .glyphicon {
+    color:white;
+    font-size: 50px;
+}
+
+
+  
+
+  
+  @media only screen and (min-width: 350px){
+    .navbar-nav li a{
+      font-size:18px;
+    }
+    .navbar-inverse .navbar-header{
+      background-color: lightblue;
+    }
+    .navbar-toggle{
+      margin-top:25px;
+      background-color:black;
+    }
+    .navbar-header h1{
+      margin-top:20px;
+      margin-bottom:15px;
+    }
+    .container h2{
+      
+      margin-top:50px;
+    }
+   .container form{
+     width:55%;
+    
+   }
+   form input{
+    border-bottom:2px solid black;
+   }
+   form button{
+     margin-left:10px;
+   }
+   .side img{
+    width: 25.25%;
+    float:right;
+    margin-right:35px;
+  margin-bottom:35px;
+       z-index:2;
+   }
+   
+  }
+
+  @media only screen and (min-width: 700px){
+    
+    .container form{
+      width:50%;
+     
+    }
+    form button{
+      margin-left:80px;
+    }
+    .side img{
+    position:absolute; 
+   width: 30.23%;
+   float:right;
+    right:25px;
+     bottom:150px;
+      z-index:2;
+    }
+
+  }
+
+  
